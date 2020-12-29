@@ -2,6 +2,6 @@
 My personal portfolio!
 
 ## Screenshots
-![alt text](screenshots/screenshot1.PNG)  
-![alt text](screenshots/screenshot2.PNG)  
-![alt text](screenshots/screenshot3.PNG)
+![Home](screenshots/home.png)  
+![Technologies](screenshots/technologies.png)  
+![Projects](screenshots/projects.png)
