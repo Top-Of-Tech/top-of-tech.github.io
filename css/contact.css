@@ -29,13 +29,13 @@ nav ul {
   margin-right: 20px;
 }
 
-nav ul li {
+nav li {
   display: inline-block;
   line-height: 80px;
   margin: 0 5px;
 }
 
-nav ul li a {
+nav a {
   color: white;
   font-size: 17px;
   padding: 7px 13px;
@@ -43,6 +43,7 @@ nav ul li a {
 }
 
 .nav-item:hover {
-  background: red;
+  background: white;
+  color: black;
   transition: .5s;
 }
