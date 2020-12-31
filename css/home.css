@@ -80,10 +80,68 @@ nav a:hover {
   color: white;
   border-radius: 24px;
   background: #3498db;
+  cursor: pointer;
   transition: 0.25s;
 }
 
 .container button:hover {
   border: 2px solid #2ecc71;
   background: #2ecc71;
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+.check {
+  display: none;
+}
+
+@media (min-width: 2500px) and (max-height: 1000px) {
+  body {
+    background-image: url("ultrawidephoto.png");
+  }
+}
+
+@media (max-width: 1400px) {
+  body {
+    background-image: url("phone\ image.jpg");
+  }
+}
+
+@media (max-width: 952px) {
+  label.logo {
+    font-size: 30px;
+    padding-left: 50px;
+  }
+
+  nav a {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 850px) {
+  label.logo {
+    text-align: center;
+    display: block;
+  }
+
+  nav ul {
+    width: 50%;
+    margin: auto;
+    float: none;
+  }
+
+  .container {
+    margin-top: 27%;
+  }
+
+  .container h1 {
+    font-size: 80px;
+  }
 }
