@@ -140,6 +140,9 @@ nav a:hover {
 
   nav ul {
     width: 50%;
-    float: none;
+  }
+
+  .home, .technologies {
+    display: none;
   }
 }

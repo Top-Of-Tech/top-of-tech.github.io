@@ -144,4 +144,8 @@ nav a:hover {
   .container h1 {
     font-size: 80px;
   }
+
+  .home, .contact {
+    display: none;
+  }
 }
