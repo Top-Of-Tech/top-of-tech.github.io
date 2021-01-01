@@ -134,8 +134,8 @@ nav a:hover {
 
 @media (max-width: 850px) {
 
-  nav ul {
-    width: 50%;
+  nav li {
+    text-align: center;
   }
 
 
