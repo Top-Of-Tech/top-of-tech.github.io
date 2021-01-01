@@ -138,6 +138,10 @@ nav a:hover {
     text-align: center;
   }
 
+  .logo {
+    text-align: center;
+  }
+
 
   .home, .technologies {
     display: none;
