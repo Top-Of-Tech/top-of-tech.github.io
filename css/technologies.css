@@ -97,53 +97,8 @@ nav a:hover {
   }
 }
 
-@media (max-width: 1500px) {
-  .git-github {
-    padding-right: 0;
-  }
-
-  .html-css {
-    padding-left: 0;
-  }
-
-  .python {
-    padding-right: 0;
-  }
-}
-
 @media (max-width: 1400px) {
   body {
     background-image: url("phone\ image.jpg");
-  }
-}
-
-@media (max-width: 952px) {
-  label.logo {
-    font-size: 30px;
-    padding-left: 50px;
-  }
-
-  nav a {
-    font-size: 16px;
-  }
-
-  .python {
-    padding-top: 100px;
-  }
-}
-
-@media (max-width: 850px) {
-
-  nav li {
-    text-align: center;
-  }
-
-  .logo {
-    text-align: center;
-  }
-
-
-  .home, .technologies {
-    display: none;
   }
 }
