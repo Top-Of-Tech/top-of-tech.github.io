@@ -113,39 +113,3 @@ nav a:hover {
     background-image: url("phone\ image.jpg");
   }
 }
-
-@media (max-width: 952px) {
-  label.logo {
-    font-size: 30px;
-    padding-left: 50px;
-  }
-
-  nav a {
-    font-size: 16px;
-  }
-}
-
-@media (max-width: 850px) {
-  label.logo {
-    text-align: center;
-    display: block;
-  }
-
-  nav ul {
-    width: 50%;
-    margin: auto;
-    float: none;
-  }
-
-  .container {
-    margin-top: 27%;
-  }
-
-  .container h1 {
-    font-size: 80px;
-  }
-
-  .home, .contact {
-    display: none;
-  }
-}
