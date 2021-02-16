@@ -108,7 +108,7 @@ nav a:hover {
   }
 }
 
-@media (max-height: 900px) {
+@media (max-height: 926px) {
   body {
     background-image: url("phone-image.png");
   }
