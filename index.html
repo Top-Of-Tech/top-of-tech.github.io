@@ -2,28 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/home.css">
     <title>Top Of Tech</title>
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <label class="logo">Top Of Tech</label>
-            <ul>
-                <li><a href="index.html" class="home">Home</a></li>
-                <li><a href="technologies.html">Technologies</a></li>
-                <li><a href="projects.html" >Projects</a></li>
-                <li><a href="contact.html" class="contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <div class="container">
-            <h1>Top Of Tech</h1>
-            <p>Student by day, coder by night.</p>
-            <button onclick="window.location.href='technologies.html';">Technologies</button>
+    <img class="bg" src="imgs/index-bg.jpg"/>
+    <nav>
+        <div class="nav-container">
+            <h1 class="logo">Top Of Tech</h1>
+
+            <div class="menu">
+                <a href="index.html" class="is-active">Home</a>
+                <a href="about.html">About</a>
+                <a href="projects.html">Projects</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <button class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </div>
-    </main>
+    </nav>
+
+    <div class="word-container">
+        <h1 class="top-of-tech">I am Top Of Tech</h1>
+        <h1 class="developer">I am a developer</h1>
+    </div>
+
+    <div class="button-container">
+        <button onclick="window.location.href='about.html';">About Me</button>
+        <button onclick="window.location.href='projects.html';">Projects</button>
+    </div>
+
+    <script src="js/nav.js"></script>
 </body>
 </html>
